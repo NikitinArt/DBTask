@@ -30,7 +30,7 @@ namespace ConsoleApp2
                         object name_of_product = reader.GetValue(0);
                         object name_of_category = reader.GetValue(1);
 
-                        Console.WriteLine($"{name_of_product} \t{name_of_product}");
+                        Console.WriteLine($"{name_of_product} \t{name_of_category}");
                     }
                 }
 
